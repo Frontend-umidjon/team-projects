@@ -1,0 +1,83 @@
+.arrival__new__section {
+    margin: 50px;
+    padding: 50px;
+  
+    .Products__new {
+    padding: 20px 50px;
+    margin-top: 50px;
+      display: grid;
+      grid-template-columns: 1fr 1fr; 
+      grid-gap: 20px;
+      align-items: stretch; 
+      justify-items: stretch; 
+  
+      .pl__stadion {
+        background-color: black; 
+        border-radius: 10px;
+        overflow: hidden;
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+  
+        img {
+          width: 100%; 
+          height: 100%;
+          object-fit: cover;
+          &:hover {
+            transform: translateY(-10px);
+            transition: transform 0.9s ease-in-out; 
+          }
+        }
+      }
+  
+      .different__product {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+        img{
+            width: 100%;
+            &:hover {
+              transform: translateY(-10px);
+              transition: transform 0.9s ease-in-out; 
+            }
+        }         
+  
+        .two__picture {
+          display: grid;
+          grid-template-columns: 1fr 1fr; 
+          gap: 15px;
+
+  
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+          }
+        }
+  
+        .speaker,
+        .pafume {
+          background-color: black; 
+          border-radius: 10px;
+          padding: 15px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          &:hover {
+            transform: translateY(-10px);
+            transition: transform 0.9s ease-in-out; 
+          }
+          
+  
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+  }
+  
