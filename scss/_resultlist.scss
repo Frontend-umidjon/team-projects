@@ -1,0 +1,48 @@
+.result__grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.result_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    width: 270px;
+    height: 230px;
+    border: 2px solid #d3d3d3;
+    flex-direction: column;
+    transition: .3s;
+    cursor: pointer;
+
+    img{
+        width: 80px;
+        height: 80px;
+    }
+    h1{
+        font-size: 32px;
+        padding-top: 12px;
+        color: #000000;
+        font-family: "poppins";
+        font-weight: 700;
+    }
+    span{
+        padding-top: 5px;
+        font-size: 15px;
+        color: #000000;
+        font-family: "poppins";
+    }
+}
+.result_box:hover{
+    padding: 0 25px;
+    transform: scale(1.04);
+    background-color: #DB4444;
+    border: none;
+    box-shadow: 2px 2px 10px  #d3d3d3;
+
+    h1{
+        color: #fff;
+    }
+    span{
+        color: #fff;
+    }
+}

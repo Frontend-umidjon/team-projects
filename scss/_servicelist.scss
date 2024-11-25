@@ -1,0 +1,25 @@
+.service__grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.service_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    h1{
+        font-size: 20px;
+        font-family: "poppins";
+    }
+    span{
+        font-size: 14px;
+        font-family: "poppins";
+    }
+
+
+    img{
+        width: 80px;
+        height: 80px;
+    }
+}
