@@ -1,0 +1,29 @@
+.user__grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.user_box{
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 564px;
+  h1{
+    font-family: "poppins";
+    color: #000;
+    font-size: 32px;
+  }
+  span{
+    font-family: "poppins";
+    color: #000;
+    font-size: 16px;
+  }
+
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
