@@ -1,8 +1,7 @@
 .grid__product{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    max-width: 1202px;
-    overflow: hidden;
+   
 }
 .line2:hover{
     width: 270px;
@@ -105,7 +104,7 @@ transition: .3s;
 .grid__product2{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    max-width: 1202px;
+  
 }
 
 @media (max-width:1193px){
